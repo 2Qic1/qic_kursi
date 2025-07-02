@@ -1,0 +1,87 @@
+'''bash
+  100  mkdir homework02
+  101  cd homework02/
+  102  git init
+  103  git branch
+  104  git status
+  105  nano README.md
+  106  date >> README.md
+  107  git sttaus
+  108  git status
+  109  git add --all && git commit -m "Commit 1"
+  110  git log --oneline
+  111  git branch
+  112  git checkout -b feature-branch
+  113  git branch
+  114  nano README.md
+  115  git add --all && git commit -m "Commit2"
+  116  git log --oneline
+  117  git checkout master
+  118  git merge feature-branch
+  119  git log --oneline
+  120  git show master
+  121  git branch
+  122  git log --oneline
+  123  git branch
+  124  git checkout feature-branch
+  125  git log --oneline
+  126  git checkout 7d36032
+  127  git log --oneline
+  128  git tag -a V1.0 -m "Version 1.0"
+  129  git log --oneline
+  130  git checkout master
+  131  git log --oneline
+  132  nano README.md
+  133  date >> README.md
+  134  git branch
+  135  git add --all && git commit -m "Commit 4"
+  136  git log --oneline
+  137  git checkout feature-branch
+  138  git log --oneline
+  139  git checkout -
+  140  git branch
+  141  git checkout -b bug-fix
+  142  nano README.md
+  143  git add --all && git commit -m "Commit 5.0"
+  144  nano README.md
+  145  git add --all && git commit -m "Commit 5.1"
+  146  git log --oneline
+  147  git reset --hard HEAD~1
+  148  git log --oneline
+  149  nano README.md
+  150  git add --all && git commit -m "Commit 5.1"
+  151  git log --oneline
+  152  git reset --mixed HEAD~1
+  153  git log --oneline
+  154  git branch
+  155  git checkout -b experimental-feature
+  156  git branch
+  157  nano README.md
+  158  git status
+  159  git stash
+  160  git status
+  161  git stash list
+  162  git checkout master
+  163  nano README.md
+  164  git checkout experimental-feature
+  165  nano README.md
+  166  git status
+  167  git checkout master
+  168  git status
+  169  git add --all && git commit -m "Commit 6"
+  170  git stash list
+  171  git stash pop
+  172  git status
+  173  nano README.md
+  174  git branch
+  175  git add --all && git commit -m "Commit 6.1"
+  176  git status
+  177  git log --oneline
+  178  git config --global user.name "Dzmitry Kuntsevich"
+  179  git config --global user.email "2cristall1@mail.ru"
+  180  git config --global alias.st "status"
+  181  git st
+  182  git config --global alias.cm "commit -m"
+  183  git config --list
+  184  history
+'''
